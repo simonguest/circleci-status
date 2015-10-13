@@ -1,9 +1,9 @@
 {
   "name": "circleci-status",
-  "version": "0.10.3",
+  "version": "0.10.4",
   "description": "Status CLI for Circle CI",
   "bin" : {
-     "circleci-status" : "./index.js"
+     "circleci-status" : "./src/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
