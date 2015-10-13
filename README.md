@@ -27,6 +27,8 @@ To run, execute circleci-status from the command line:
 ~$ circleci-status
 ```
 
+## Result Codes
+
 The circleci-status will return one of the following status/codes:
 
 ```Building...```
@@ -37,4 +39,4 @@ The circleci-status will return one of the following status/codes:
 
 ```Build Canceled - Please check the repo at https://circleci.com/gh/username/repo/tree/master```
 
-
+The command line process will also exit with the correct error code (0 for success, 1 for failure)
