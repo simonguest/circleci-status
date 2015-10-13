@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 var chalk = require('chalk');
 var fs = require('fs');
 var request = require('request');
