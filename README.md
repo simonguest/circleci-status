@@ -10,7 +10,7 @@ Install using the following command:
 
 ## Configuring
 
-To configure the tool, create a new file called ```.circleci-rc``` in your project directory. The .circlerc file should contain the name of the repo (including the github username), and status token (if the repo is private). Example:
+To configure the tool, create a new file called ```.circleci-rc``` in your project directory. The .circleci-rc file should contain the name of the repo (including the github username), and status token (if the repo is private). Example:
 
 ```
 {
