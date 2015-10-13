@@ -27,23 +27,21 @@ To run, execute circleci-status from the command line:
 ~$ circleci-status
 ```
 
-## Results 
-
 The circleci-status will return one of the following status/codes:
 
-### Building
+## Building
 
 ```Building...```
 
-### Success
+## Success
 
 ```Success (Build: 44) completed Today at 3:17 PM```
 
-### Failure
+## Failure
 
 ```Failure - Please check the repo at https://circleci.com/gh/username/repo/tree/master```
 
-### Canceled
+## Canceled
 
 ```Build Canceled - Please check the repo at https://circleci.com/gh/username/repo/tree/master```
 
