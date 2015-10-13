@@ -1,10 +1,9 @@
 {
   "name": "circleci-status",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "Status CLI for Circle CI",
   "main": "index.js",
   "bin" : "./index.js",
-  "readme" : "README.md",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
