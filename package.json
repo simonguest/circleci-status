@@ -1,0 +1,27 @@
+{
+  "name": "circleci-status",
+  "version": "0.10.0",
+  "description": "Status CLI for Circle CI",
+  "main": "index.js",
+  "bin" : "./index.js",
+  "readme" : "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonguest/circleci-status.git"
+  },
+  "author": "Simon Guest <me@simonguest.com> (http://github.com/simonguest)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/simonguest/circleci-status/issues"
+  },
+  "homepage": "https://github.com/simonguest/circleci-status#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "moment": "^2.10.6",
+    "request": "^2.65.0",
+    "xml2js": "^0.4.12"
+  }
+}
