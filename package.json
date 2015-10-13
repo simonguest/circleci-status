@@ -1,6 +1,6 @@
 {
   "name": "circleci-status",
-  "version": "0.10.5",
+  "version": "0.10.6",
   "description": "Status CLI for Circle CI",
   "bin" : {
      "circleci-status" : "./src/index.js"
